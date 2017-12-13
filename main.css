@@ -1,1 +1,23 @@
-
+.center {
+  text-align: center;
+}
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+  float: left;
+  text-decoration: none;
+  color: white;
+  background: gray;
+  padding: 8px 16px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+.pagination a.active {
+  background: lightgray;
+  color: black;
+}
+.license-text {
+  font-size: 12px;
+}
